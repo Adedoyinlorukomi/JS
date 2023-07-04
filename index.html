@@ -57,7 +57,19 @@
     <p class="h5 pt-[60px]">I learnt how to use JS to print a page</p>
     <button type="button" onclick="print()" class="bg-emerald-600 py-4 px-6">PRINT THIS PAGE</button>
 
+  <div class="spinner-grow">
 
+  </div>
+  <p id="demo"></p>
+  <p id="demo1" class="bg-emerald-700 text-white text-center text-3xl py-6 mt-4"></p>
+  <p onmouseover="this.style.backgroundColor='#ffffff',this.style.color='green'" 
+  onmouseout="this.style.backgroundColor='black',this.style.color='white'">This text turns to green when your mouseover it
+and goes back to its original form</p>
+
+  <div class=" my-[120px]">
+    <button onmouseout="this.innerHTML=Date()" class="bg-emerald-700 text-white p-3">The time is?</button>
+    <p id="demo3" class="text-center"></p>   
+  </div>
     <script src="script.js">
     </script>
 </body>
